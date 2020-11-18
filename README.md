@@ -9,4 +9,4 @@ Based on [bogem/ftp](https://github.com/bogem/dockerfiles/tree/master/ftp)
 					-e FTP_PASS=<password> \
 					-e PASV_ADDRESS=<ip address of your server> \
 					--name ftp \
-					--restart=always ninjawulf98/ftp
+					--restart=always ninjawulf98/vsftpd
