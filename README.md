@@ -1,6 +1,9 @@
 Simple ftp server based on vsftpd.
-Minimalistic clone of [fauria/vsftpd](https://hub.docker.com/r/fauria/vsftpd/).
+
+Minimalistic clone of [fauria/vsftpd](https://hub.docker.com/r/fauria/vsftpd/)\
 Based on [bogem/ftp](https://github.com/bogem/dockerfiles/tree/master/ftp)
+
+The ip connection limit is disabled 
 
 # Usage
 	$ docker run -d -v <host folder>:/home/vsftpd \
